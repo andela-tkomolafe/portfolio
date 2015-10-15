@@ -1,19 +1,59 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/node_modules/material-design-lite/material.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Betkom</title>
-  </head>
-  <body>
-    <div id="home" class="mdl-layout home-box">
-      <p>My Portfolio</p>
-    </div>
+  <html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+      <title>Betkom</title>
+
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <nav role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="#" class="brand-logo">Betkom</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Contact me</a></li>
+          </ul>
+
+          <ul id="nav-mobile" class="side-nav">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Media</a></li>
+            <li><a href="#">Contact me</a></li>
+          </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+      <div class="hero">
+        <div id="index-banner" class="parallax-container">
+            <p class="center">Tolulope Komolafe<p>
+            <p class="row center"> Web Designer. Web Developer </p>
+        </div>
+      </div>
+      <div id="about" class="row about">
+        <div class="col s12 m8 center about-box">
+          <div class="card-panel grayscale hoverable">
+  					<img src="img/tolu.jpg" alt="Profile Photo of Tolu" class="profile-photo">
+  						<span class="card-title">About</span>
+  						<p>Hello!, I'm Tolulope Komolafe,I am an Andela fellow. Working in Andela has really been a wonderful experience. When I joined Andela I knew next to nothing about web and software development, But now thanks to Andela I am proud to call myself a programmer.</p>
+  						<p>Andela gives me opportunity to improve myself everyday.</p>
+  						<p>This is my project repository where I share all my favorite work. when I'm not working, I enjoy playing and watching soccer, reading and music</p>
+  						<p>If you'd like to follow me on Twitter, my username is <a href="http://twitter.com/betkom">@betkom</a></p>
+  						<p>If you'd like to be my friend on Facebook, my username is <a href= "http://facebook.com/betkomuniq"> betkomuniq</a></p>
+          </div>
+        </div>
+			</div>
 
 
-    <script src="/node_modules/material-design-lite/material.min.js"></script>
-  </body>
-</html>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+      <script src="js/init.js"></script>
+    </body>
+  </html>

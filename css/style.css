@@ -1,3 +1,27 @@
-.home-box {
-  background-color: blue;
+
+.hero {
+  color: #fafafa;
+  padding-top: 190px;
+  background-image: url('../img/nice-bd.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+nav {
+  background: none;
+  position: fixed;
+}
+
+.profile-photo {
+  max-width: 150px;
+	margin-right: 2rem;
+	margin-bottom: 10px;
+	border-radius: 100%;
+}
+
+.about {
+  padding-top: 80px;
+  padding-left: 40px;
+  margin-left: 180px;
 }
